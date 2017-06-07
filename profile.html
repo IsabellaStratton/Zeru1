@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css.css">
+<link href="https://fonts.googleapis.com/css?family=Abel|News+cycle|Poiret+One|Raleway" rel="stylesheet">
+
+<title>Zeru</title>
+</head>
+
+<body>
+
+
+
+<div class="top">
+
+
+  <div class="white xlarge" style="max-width:1200px;margin:auto;">
+   <div class="right padding-16" id='openweathermap-widget'></div>
+                    <script type='text/javascript'>
+                    window.myWidgetParam = {
+                        id: 24,
+                        cityid: 2634573,
+                        appid: '',
+                        units: 'metric',
+                        containerid: 'openweathermap-widget',
+                    };
+                    (function() {
+                        var script = document.createElement('script');
+                        script.type = 'text/javascript';
+                        script.async = true;
+                        script.src = 'https://openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js';
+                        var s = document.getElementsByTagName('script')[0];
+                        s.parentNode.insertBefore(script, s);
+                    })();
+                  </script>
+<div class="arrow">
+    <a onclick="goBack()"> <img src="arrow.jpg" width="80vw" height="auto" style="margin-top:0.8vw"></a>
+
+</div>
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+    <div class="center" style="font-size:9vh; margin-bottom: 3vh; font-family: 'Poiret One', cursive;"> Profile</div>
+  	 
+  	   <div class="center">
+  <a class="btn" href="weather.html">
+   <div class="col">
+      <div class="pal1">
+        <div class="right">
+        </div>
+        <h4 style="font-family: 'Raleway', sans-serif;">Update Schedule</h4>
+      </div>
+    </div>  </a>
+	</div>
+      
+	  <br></br>
+	  <div class="center">
+	  <a class="btn" href="schedule.html">
+    <div class="col">
+      <div class="pal2">
+        <div class="right">
+        </div>
+        <h4 style="font-family: 'Raleway', sans-serif;">Hobbies</h4>
+      </div>
+    </div></a>
+    </div>
+	<br></br>
+	<br></br>
+      
+    </div>
+</body>
+</html>
